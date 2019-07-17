@@ -1,0 +1,33 @@
+{
+  "name": "netzstrategen/acf-add-ons",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "description": "Add-ons for Advanced Custom Fields.",
+  "authors": [
+    {
+      "name": "netzstrategen",
+      "email": "tech@netzstrategen.com",
+      "homepage": "https://github.com/netzstrategen"
+    },
+    {
+      "name": "Fabian Marz",
+      "email": "fabian@netzstrategen.com",
+      "homepage": "https://github.com/netzstrategen/sind/fabian-marz"
+    }
+  ],
+  "keywords": [
+    "acf",
+    "wordpress",
+    "wp"
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "composer/installers": "^1",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*"
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
