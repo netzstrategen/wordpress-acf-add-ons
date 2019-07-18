@@ -1,9 +1,9 @@
 <?php
 
-namespace Netzstrategen\AcfAddons\Locations;
+namespace Netzstrategen\AcfAddOns\Locations;
 
 use acf_location;
-use Netzstrategen\AcfAddons\Plugin;
+use Netzstrategen\AcfAddOns\Plugin;
 
 /**
  * Class for adding a custom ACF 'menu item depth' location rule.

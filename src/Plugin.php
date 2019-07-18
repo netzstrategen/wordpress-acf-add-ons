@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains \Netzstrategen\AcfAddons\Plugin.
+ * Contains \Netzstrategen\AcfAddOns\Plugin.
  */
 
-namespace Netzstrategen\AcfAddons;
+namespace Netzstrategen\AcfAddOns;
 
 /**
  * Main front-end functionality.
