@@ -2,7 +2,7 @@
 
 /*
   Plugin Name: ACF Add-ons
-  Version: 1.0.0
+  Version: 1.1.0
   Text Domain: acf-add-ons
   Description: Add-ons for Advanced Custom Fields.
   Author: netzstrategen
