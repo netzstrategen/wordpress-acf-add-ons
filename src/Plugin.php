@@ -34,6 +34,7 @@ class Plugin {
       return;
     }
     acf_register_location_rule(__NAMESPACE__ . '\Locations\NavMenuItemDepth');
+    acf_register_location_rule(__NAMESPACE__ . '\Locations\PageParentTemplate');
   }
 
   /**
