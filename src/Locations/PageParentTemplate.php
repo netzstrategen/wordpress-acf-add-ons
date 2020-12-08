@@ -26,9 +26,9 @@ class PageParentTemplate extends acf_location {
     if (isset($screen['post_id'])) {
       $post_parent_id = wp_get_post_parent_id($screen['post_id']);
       $post_parent_template = get_page_template_slug($post_parent_id);
-      $match = $this->compare($post_parent_template, $rule);
-      return $match;
+      $result = $this->compare($post_parent_template, $rule);
     }
+	return $result;
   }
 
   /**
