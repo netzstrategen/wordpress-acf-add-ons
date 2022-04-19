@@ -22,8 +22,7 @@
   ],
   "require": {
     "php": ">=7.0.0",
-    "composer/installers": "^1",
-    "advanced-custom-fields/advanced-custom-fields-pro": "*"
+    "composer/installers": "^1"
   },
   "minimum-stability": "dev",
   "config": {
